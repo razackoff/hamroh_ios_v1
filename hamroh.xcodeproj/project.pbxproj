@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBD796392AB2ECFA0000C66E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD796382AB2ECFA0000C66E /* AppDelegate.swift */; };
+		DBD7963B2AB2ECFA0000C66E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD7963A2AB2ECFA0000C66E /* SceneDelegate.swift */; };
+		DBD7963D2AB2ECFA0000C66E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD7963C2AB2ECFA0000C66E /* ViewController.swift */; };
+		DBD796402AB2ECFA0000C66E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD7963E2AB2ECFA0000C66E /* Main.storyboard */; };
+		DBD796422AB2ECFB0000C66E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD796412AB2ECFB0000C66E /* Assets.xcassets */; };
+		DBD796452AB2ECFB0000C66E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD796432AB2ECFB0000C66E /* LaunchScreen.storyboard */; };
+		DBD796502AB2ECFB0000C66E /* hamrohTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD7964F2AB2ECFB0000C66E /* hamrohTests.swift */; };
+		DBD7965A2AB2ECFB0000C66E /* hamrohUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD796592AB2ECFB0000C66E /* hamrohUITests.swift */; };
+		DBD7965C2AB2ECFB0000C66E /* hamrohUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD7965B2AB2ECFB0000C66E /* hamrohUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBD7964C2AB2ECFB0000C66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD7962D2AB2ECFA0000C66E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD796342AB2ECFA0000C66E;
+			remoteInfo = hamroh;
+		};
+		DBD796562AB2ECFB0000C66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD7962D2AB2ECFA0000C66E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD796342AB2ECFA0000C66E;
+			remoteInfo = hamroh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBD796352AB2ECFA0000C66E /* hamroh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hamroh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD796382AB2ECFA0000C66E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBD7963A2AB2ECFA0000C66E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DBD7963C2AB2ECFA0000C66E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		DBD7963F2AB2ECFA0000C66E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBD796412AB2ECFB0000C66E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBD796442AB2ECFB0000C66E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBD796462AB2ECFB0000C66E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD7964B2AB2ECFB0000C66E /* hamrohTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hamrohTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD7964F2AB2ECFB0000C66E /* hamrohTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hamrohTests.swift; sourceTree = "<group>"; };
+		DBD796552AB2ECFB0000C66E /* hamrohUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hamrohUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD796592AB2ECFB0000C66E /* hamrohUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hamrohUITests.swift; sourceTree = "<group>"; };
+		DBD7965B2AB2ECFB0000C66E /* hamrohUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hamrohUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBD796322AB2ECFA0000C66E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD796482AB2ECFB0000C66E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD796522AB2ECFB0000C66E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBD7962C2AB2ECFA0000C66E = {
+			isa = PBXGroup;
+			children = (
+				DBD796372AB2ECFA0000C66E /* hamroh */,
+				DBD7964E2AB2ECFB0000C66E /* hamrohTests */,
+				DBD796582AB2ECFB0000C66E /* hamrohUITests */,
+				DBD796362AB2ECFA0000C66E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBD796362AB2ECFA0000C66E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBD796352AB2ECFA0000C66E /* hamroh.app */,
+				DBD7964B2AB2ECFB0000C66E /* hamrohTests.xctest */,
+				DBD796552AB2ECFB0000C66E /* hamrohUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBD796372AB2ECFA0000C66E /* hamroh */ = {
+			isa = PBXGroup;
+			children = (
+				DBD796382AB2ECFA0000C66E /* AppDelegate.swift */,
+				DBD7963A2AB2ECFA0000C66E /* SceneDelegate.swift */,
+				DBD7963C2AB2ECFA0000C66E /* ViewController.swift */,
+				DBD7963E2AB2ECFA0000C66E /* Main.storyboard */,
+				DBD796412AB2ECFB0000C66E /* Assets.xcassets */,
+				DBD796432AB2ECFB0000C66E /* LaunchScreen.storyboard */,
+				DBD796462AB2ECFB0000C66E /* Info.plist */,
+			);
+			path = hamroh;
+			sourceTree = "<group>";
+		};
+		DBD7964E2AB2ECFB0000C66E /* hamrohTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBD7964F2AB2ECFB0000C66E /* hamrohTests.swift */,
+			);
+			path = hamrohTests;
+			sourceTree = "<group>";
+		};
+		DBD796582AB2ECFB0000C66E /* hamrohUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBD796592AB2ECFB0000C66E /* hamrohUITests.swift */,
+				DBD7965B2AB2ECFB0000C66E /* hamrohUITestsLaunchTests.swift */,
+			);
+			path = hamrohUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBD796342AB2ECFA0000C66E /* hamroh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD7965F2AB2ECFB0000C66E /* Build configuration list for PBXNativeTarget "hamroh" */;
+			buildPhases = (
+				DBD796312AB2ECFA0000C66E /* Sources */,
+				DBD796322AB2ECFA0000C66E /* Frameworks */,
+				DBD796332AB2ECFA0000C66E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hamroh;
+			productName = hamroh;
+			productReference = DBD796352AB2ECFA0000C66E /* hamroh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBD7964A2AB2ECFB0000C66E /* hamrohTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD796622AB2ECFB0000C66E /* Build configuration list for PBXNativeTarget "hamrohTests" */;
+			buildPhases = (
+				DBD796472AB2ECFB0000C66E /* Sources */,
+				DBD796482AB2ECFB0000C66E /* Frameworks */,
+				DBD796492AB2ECFB0000C66E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD7964D2AB2ECFB0000C66E /* PBXTargetDependency */,
+			);
+			name = hamrohTests;
+			productName = hamrohTests;
+			productReference = DBD7964B2AB2ECFB0000C66E /* hamrohTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBD796542AB2ECFB0000C66E /* hamrohUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD796652AB2ECFB0000C66E /* Build configuration list for PBXNativeTarget "hamrohUITests" */;
+			buildPhases = (
+				DBD796512AB2ECFB0000C66E /* Sources */,
+				DBD796522AB2ECFB0000C66E /* Frameworks */,
+				DBD796532AB2ECFB0000C66E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD796572AB2ECFB0000C66E /* PBXTargetDependency */,
+			);
+			name = hamrohUITests;
+			productName = hamrohUITests;
+			productReference = DBD796552AB2ECFB0000C66E /* hamrohUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBD7962D2AB2ECFA0000C66E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					DBD796342AB2ECFA0000C66E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					DBD7964A2AB2ECFB0000C66E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = DBD796342AB2ECFA0000C66E;
+					};
+					DBD796542AB2ECFB0000C66E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = DBD796342AB2ECFA0000C66E;
+					};
+				};
+			};
+			buildConfigurationList = DBD796302AB2ECFA0000C66E /* Build configuration list for PBXProject "hamroh" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBD7962C2AB2ECFA0000C66E;
+			productRefGroup = DBD796362AB2ECFA0000C66E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBD796342AB2ECFA0000C66E /* hamroh */,
+				DBD7964A2AB2ECFB0000C66E /* hamrohTests */,
+				DBD796542AB2ECFB0000C66E /* hamrohUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBD796332AB2ECFA0000C66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD796452AB2ECFB0000C66E /* LaunchScreen.storyboard in Resources */,
+				DBD796422AB2ECFB0000C66E /* Assets.xcassets in Resources */,
+				DBD796402AB2ECFA0000C66E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD796492AB2ECFB0000C66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD796532AB2ECFB0000C66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBD796312AB2ECFA0000C66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD7963D2AB2ECFA0000C66E /* ViewController.swift in Sources */,
+				DBD796392AB2ECFA0000C66E /* AppDelegate.swift in Sources */,
+				DBD7963B2AB2ECFA0000C66E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD796472AB2ECFB0000C66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD796502AB2ECFB0000C66E /* hamrohTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD796512AB2ECFB0000C66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD7965A2AB2ECFB0000C66E /* hamrohUITests.swift in Sources */,
+				DBD7965C2AB2ECFB0000C66E /* hamrohUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBD7964D2AB2ECFB0000C66E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD796342AB2ECFA0000C66E /* hamroh */;
+			targetProxy = DBD7964C2AB2ECFB0000C66E /* PBXContainerItemProxy */;
+		};
+		DBD796572AB2ECFB0000C66E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD796342AB2ECFA0000C66E /* hamroh */;
+			targetProxy = DBD796562AB2ECFB0000C66E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBD7963E2AB2ECFA0000C66E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD7963F2AB2ECFA0000C66E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBD796432AB2ECFB0000C66E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD796442AB2ECFB0000C66E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBD7965D2AB2ECFB0000C66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBD7965E2AB2ECFB0000C66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBD796602AB2ECFB0000C66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hamroh/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gram.hamroh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBD796612AB2ECFB0000C66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hamroh/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gram.hamroh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBD796632AB2ECFB0000C66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gram.hamrohTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hamroh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hamroh";
+			};
+			name = Debug;
+		};
+		DBD796642AB2ECFB0000C66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gram.hamrohTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hamroh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hamroh";
+			};
+			name = Release;
+		};
+		DBD796662AB2ECFB0000C66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gram.hamrohUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hamroh;
+			};
+			name = Debug;
+		};
+		DBD796672AB2ECFB0000C66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gram.hamrohUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hamroh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBD796302AB2ECFA0000C66E /* Build configuration list for PBXProject "hamroh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD7965D2AB2ECFB0000C66E /* Debug */,
+				DBD7965E2AB2ECFB0000C66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD7965F2AB2ECFB0000C66E /* Build configuration list for PBXNativeTarget "hamroh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD796602AB2ECFB0000C66E /* Debug */,
+				DBD796612AB2ECFB0000C66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD796622AB2ECFB0000C66E /* Build configuration list for PBXNativeTarget "hamrohTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD796632AB2ECFB0000C66E /* Debug */,
+				DBD796642AB2ECFB0000C66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD796652AB2ECFB0000C66E /* Build configuration list for PBXNativeTarget "hamrohUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD796662AB2ECFB0000C66E /* Debug */,
+				DBD796672AB2ECFB0000C66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBD7962D2AB2ECFA0000C66E /* Project object */;
+}
